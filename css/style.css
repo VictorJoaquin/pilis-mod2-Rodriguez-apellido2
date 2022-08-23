@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,900&display=swap');
+
+/*Reset*/
+*{
+    box-sizing: border-box;
+}
+
+/*General*/
+html, body{
+    font-family: Roboto;
+    /*background:#ba3940;
+    color: #FFFFFF;*/
+}
+
+header{
+    height: 15vh;
+}
+
+a{
+    text-decoration: none;
+}
+
+#navbar .logo{
+    font-size: 25px;
+    padding-top: 16px;
+    float: right;
+}
+
+#navbar ul{
+    list-style: none;
+    text-transform: uppercase;
+    float: left;
+}
+
+#navbar ul li{
+    float: left;
+}
+
+#navbar ul li a{
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    margin: auto;
+    max-width: 1300px;
+    overflow: auto;
+    padding: 25px 15px;
+}
+
+/*Section home */
+
+#home{
+    padding-top: 40px;
+}
+.titulos{
+    width: 50%; 
+    float: left;
+}
+.img-home{
+    width: 50%;
+    float: right;
+}
+
+.img-home img{
+    width: 100%;
+}
+
+/*Section event */
+.video-event{
+    width: 50%; 
+    float: left;
+}
+
+/*Section about */
+.about-description{
+    width: 50%; 
+    float: left;
+}
+
+.about-img{
+    width: 50%;
+    float: right;
+}
+
+.about-img img{
+    width: 100%;
+}
+
+/*Section register */
+.register-form{
+    width: 50%;
+    float: right;
+}
+
+/*Footer*/
+footer{
+    text-align: center;
+}
