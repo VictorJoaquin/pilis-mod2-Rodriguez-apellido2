@@ -89,14 +89,23 @@ a{
 /*Section home */
 
 #home{
-    padding-top: 40px;
+    padding-top: 20px;
     background-color: var(--primary-color-dark);
+}
+.home-contenido{
+    color: #0b300d;
+    font-size: 25px;
+    text-align: center;
+
 }
 .titulos{
     width: 50%; 
     float: left;
     background-color: var(--primary-color-dark);
+    line-height: 30px;
 }
+
+
 .img-home{
     width: 50%;
     float: right;
@@ -110,9 +119,22 @@ a{
 #event{
     background-color: var(--primary-color);
 }
+
+.event-contenido {
+    color: #0b300d;
+    font-size: 25px;
+    text-align: center;
+}
+
+.event-contenido p{
+    color: #0b300d;
+    font-size: 15px;
+    text-align: justify;
+}
 .video-event{
     width: 50%; 
     float: left;
+    margin: 10px 10px;
 }
 
 /*Section about */
@@ -122,6 +144,15 @@ a{
 .about-description{
     width: 50%; 
     float: left;
+    color: #0b300d;
+    font-size: 25px;
+    text-align: center;
+}
+
+.about-description p{   
+    color: #0b300d;
+    font-size: 15px;
+    text-align: justify;
 }
 
 .about-img{
@@ -131,19 +162,66 @@ a{
 
 .about-img img{
     width: 100%;
+    margin: 10px 20px;
 }
 
-/*Section register */
+/*Section register*/
+
 #register{
     background-color: var(--primary-color);
+}
+
+.register-description{
+    color: #0b300d;
+    font-size: 25px;
+    text-align: center;
+}
+
+.register-description p{
+    color: #0b300d;
+    font-size: 20px;
+    text-align: center;
 }
 
 .register-form{
     width: 50%;
     float: right;
 }
+
+
+
 .form-group{
-    line-height: 2.5;
+    line-height: 35px;
+}
+
+.form-control{ 
+    width: 100%;
+    border: none;
+    padding: 0.6rem 0.8rem;
+    font-size: 0.9rem;
+    letter-spacing: 1.2px;
+}
+
+
+.btn{
+    font-size: 15px;
+    padding: 15px 25px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+
+.btn-light{
+    width: 100%;
+    background: #135717;
+    border: 1px solid #104613;
+    color: #FFFFFF;
+}
+
+.btn-light:hover{
+    background: #bce0b9;
+    border: 1px solid #104613;
+    color: #104613;
 }
 
 /*Footer*/
