@@ -154,6 +154,8 @@ a{
     color: #0b300d;
     font-size: 15px;
     text-align: justify;
+    padding-right:30px;
+    
 }
 
 .about-img{
@@ -187,6 +189,7 @@ a{
 .register-form{
     width: 50%;
     float: right;
+    margin-left:20px;
 }
 
 
@@ -228,10 +231,7 @@ a{
 /*Footer*/
 #clima{
     background-color: var(--primary-color-dark);
-    margin: auto;
-    max-width: 1300px;
-    overflow: auto;
-    padding: 5px 15px;  
+    
 }
 #clima p, h3{
     color:#0b300d;
