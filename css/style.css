@@ -3,7 +3,7 @@
 :root {
   --primary-color: #42ab49;
   --primary-color-dark: #a5eea0;
-  --accent-color: #fdfd960;
+ /* --accent-color: #fdfd960;*/
 }
 
 /*Reset*/
@@ -38,7 +38,7 @@ a{
     margin: auto;
     padding: 0;
     overflow:hidden;
-    color: aqua;
+    /*color: aqua;*/
     text-align: center;
 }
 
@@ -50,7 +50,7 @@ a{
 
 .itemMenu a:hover{
     background-color: #fff0ff;
-    color:#9D5E1B;
+    /*color:#9D5E1B;*/
 }
 
 .itemMenu a{
@@ -79,6 +79,7 @@ a{
 
 
 .container {
+    font-family: Roboto;
     margin: auto;
     max-width: 1300px;
     overflow: auto;
@@ -230,8 +231,13 @@ a{
     margin: auto;
     max-width: 1300px;
     overflow: auto;
-    padding: 5px 15px;
+    padding: 5px 15px;  
 }
+#clima p, h3{
+    color:#0b300d;
+    font-weight:bolder
+}
+
 footer{
     text-align: center;
 }
